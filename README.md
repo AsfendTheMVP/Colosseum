@@ -16,3 +16,22 @@ The BikeRider app is available for two platforms:
 * Android
 
 BikeRider features **100% code share** across all platforms(iOS , Android).
+
+
+## Screens
+
+<img src="https://user-images.githubusercontent.com/38080065/43685663-9ab45c7e-98d0-11e8-93cd-e0a94a84e9d3.png" alt="Now Playing Movies" Width="210" />
+
+<img src="https://user-images.githubusercontent.com/38080065/43685665-9dc0c678-98d0-11e8-8a46-607692904a96.png" alt="Movie Detail" Width="210" />
+
+<img src="https://user-images.githubusercontent.com/38080065/43685666-9e284122-98d0-11e8-85ed-9f4995079688.png" alt="Book Ticket" Width="210" />
+
+<img src="https://user-images.githubusercontent.com/38080065/43685667-9e8a6c1c-98d0-11e8-92d9-5b7fc46a6b49.png" alt="Watch Trailer" Width="210" />
+
+<img src="https://user-images.githubusercontent.com/38080065/43685668-9f3067f2-98d0-11e8-9add-1944a726dc7e.png" alt="Upcoming Movies" Width="210" />
+
+<img src="https://user-images.githubusercontent.com/38080065/43685669-a0bdf288-98d0-11e8-9be5-c9ee931f3412.png" alt="Latest Movies" Width="210" />
+
+
+
+
