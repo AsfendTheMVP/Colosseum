@@ -10,12 +10,12 @@ This repository contains the Colosseum  mobile apps built with Xamarin Forms.
 [In order to get the course click here](https://www.udemy.com/build-real-world-application-with-xamarin-forms-part-3/?couponCode=G_REALWORLD3)
 
 ### Supported Platforms: iOS and Android
-The BikeRider app is available for two platforms:
+The Colosseum app is available for two platforms:
 
 * iOS 
 * Android
 
-BikeRider features **100% code share** across all platforms(iOS , Android).
+Colosseum features **100% code share** across all platforms(iOS , Android).
 
 
 ## Screens
@@ -26,12 +26,11 @@ BikeRider features **100% code share** across all platforms(iOS , Android).
 
 <img src="https://user-images.githubusercontent.com/38080065/43685666-9e284122-98d0-11e8-85ed-9f4995079688.png" alt="Book Ticket" Width="210" />
 
-<img src="https://user-images.githubusercontent.com/38080065/43685667-9e8a6c1c-98d0-11e8-92d9-5b7fc46a6b49.png" alt="Watch Trailer" Width="210" />
-
 <img src="https://user-images.githubusercontent.com/38080065/43685668-9f3067f2-98d0-11e8-9add-1944a726dc7e.png" alt="Upcoming Movies" Width="210" />
 
 <img src="https://user-images.githubusercontent.com/38080065/43685669-a0bdf288-98d0-11e8-9be5-c9ee931f3412.png" alt="Latest Movies" Width="210" />
 
+<img src="https://user-images.githubusercontent.com/38080065/43685667-9e8a6c1c-98d0-11e8-92d9-5b7fc46a6b49.png" alt="Watch Trailer" Width="210" />
 
 
 
