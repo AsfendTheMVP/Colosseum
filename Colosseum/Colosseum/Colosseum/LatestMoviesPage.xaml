@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xForms="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             x:Class="Colosseum.LatestMoviesPage">
+    <ContentPage.Content>
+        <xForms:SfListView x:Name="LvLatest" AutoFitMode="Height" ItemTapped="LvLatest_OnItemTapped">
+            <xForms:SfListView.LayoutManager>
+                <xForms:GridLayout SpanCount="3"></xForms:GridLayout>
+            </xForms:SfListView.LayoutManager>
+            <xForms:SfListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid HeightRequest="200" Margin="2,5,2,5">
+                        <Image Aspect="Fill" Source="{Binding CoverImage}"></Image>
+                        <BoxView BackgroundColor="Black" Opacity="0.6"></BoxView>
+                    </Grid>
+                </DataTemplate>
+            </xForms:SfListView.ItemTemplate>
+        </xForms:SfListView>
+
+</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:colosseum="clr-namespace:Colosseum;assembly=Colosseum"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            android:TabbedPage.BarSelectedItemColor="#FF5722" Title="Colosseum"
+            x:Class="Colosseum.HomePage">
+    <!--Pages can be added as references or inline-->
+
+    <colosseum:NowPlayingMoviesPage Title="Now Playing" Icon="nowplaying_movies.png"></colosseum:NowPlayingMoviesPage>
+    <colosseum:UpComingMoviesPage Title="UpComing" Icon="upcoming_movies.png"></colosseum:UpComingMoviesPage>
+    <colosseum:LatestMoviesPage Title="Latest" Icon="latest_movies.png"></colosseum:LatestMoviesPage>
+</TabbedPage>

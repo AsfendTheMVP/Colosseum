@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Colosseum.NowPlayingMoviesPage">
+    <ContentPage.Content>
+        <Grid>
+            <ListView x:Name="LvNowPlaying" SeparatorVisibility="None" HasUnevenRows="True" ItemSelected="LvNowPlaying_OnItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame BorderColor="LightGray" Margin="5" Padding="0" HasShadow="False">
+                                <Grid Margin="15,5,10,5">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Frame Grid.Column="0" CornerRadius="20" Padding="0">
+                                        <Image Aspect="AspectFill" Source="{Binding CoverImage}"/>
+                                    </Frame>
+                                    <StackLayout Margin="10,0,0,0" Grid.Column="1">
+                                        <Label FontSize="20" TextColor="Black" Text="{Binding MovieName}"/>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label FontSize="16" TextColor="#757575" Text="Director"/>
+                                            <Label FontSize="16" TextColor="Black" Text="{Binding Director}"/>
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label FontSize="16" TextColor="#757575" Text="Duration"/>
+                                            <Label FontSize="16" TextColor="Black" Text="{Binding Duration}"/>
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label FontSize="16" TextColor="#757575" Text="Language"/>
+                                            <Label FontSize="16" TextColor="Black" Text="{Binding Language}"/>
+                                        </StackLayout>
+
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label FontSize="18" TextColor="Black" FontAttributes="Bold" Text="{Binding Rating}" />
+                                            <Image HeightRequest="20" WidthRequest="20" Source="star_icon.png"/>
+                                        </StackLayout>
+
+                                    </StackLayout>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <ActivityIndicator HorizontalOptions="Center" 
+                               VerticalOptions="Center" 
+                               Color="#FF5722" IsRunning="True" x:Name="BusyIndicator"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
